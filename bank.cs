@@ -131,7 +131,7 @@ class Program
                                     string filename2 = login + ".dat";
                                     using (FileStream fs = new FileStream(filename2, FileMode.Open, FileAccess.Read))
                                     using (BinaryReader reader = new BinaryReader(fs)){
-                                            guy= new Person();
+                                            guy2 = new Person();
                                             if (reader.PeekChar() != -1)
                                              {
                                                 reader.BaseStream.Seek(0, SeekOrigin.Begin);
