@@ -42,7 +42,7 @@ class Program
                 Console.Write("Enter password:");
                 guy1.pass = Console.ReadLine();
                 guy1.balance = 0;
-                
+
                 filename = guy1.phone + ".dat";
                 using (StreamWriter writer = new StreamWriter(filename))
                 {
